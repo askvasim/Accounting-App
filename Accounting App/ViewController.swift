@@ -18,15 +18,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func addButton(_ sender: UIButton) {
-        
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let secondView = storyBoard.instantiateViewController(withIdentifier: "SecondViewID") as! SecondViewVC
-        
-        secondView.modalPresentationStyle = .fullScreen
-        self.present(secondView, animated: true, completion: nil)
-        
-    }
     
 }
 
