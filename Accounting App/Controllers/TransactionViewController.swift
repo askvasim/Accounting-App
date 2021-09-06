@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SecondViewVC: UIViewController {
+class TransactionViewController: UIViewController {
     @IBOutlet weak var amountTextField: UITextField!
     
     override func viewDidLoad() {
