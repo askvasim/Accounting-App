@@ -20,8 +20,8 @@ class HomeViewController: UIViewController {
 
     @IBAction func addButton(_ sender: UIButton) {
         
-        let transactionScreenStoryboard : UIStoryboard = UIStoryboard(name: "Accounts", bundle: nil)
-        let transactionViewController = transactionScreenStoryboard.instantiateViewController(withIdentifier: "TransactionViewControllerID") as! TransactionViewController
+        let accountsStoryboard : UIStoryboard = UIStoryboard(name: "Accounts", bundle: nil)
+        let transactionViewController = accountsStoryboard.instantiateViewController(withIdentifier: "TransactionViewControllerID") as! TransactionViewController
         
         navigationController?.pushViewController(transactionViewController, animated: true)
         
