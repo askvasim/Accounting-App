@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413EB3EA26E9EC6200550963 /* HomeNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413EB3E926E9EC6200550963 /* HomeNetworkProtocol.swift */; };
+		413EB3EC26EC9A7D00550963 /* TransactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413EB3EB26EC9A7D00550963 /* TransactionData.swift */; };
 		414DAA9D26E0D8020009C8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DAA9C26E0D8020009C8A4 /* AppDelegate.swift */; };
 		414DAA9F26E0D8020009C8A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DAA9E26E0D8020009C8A4 /* SceneDelegate.swift */; };
 		414DAAA126E0D8020009C8A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DAAA026E0D8020009C8A4 /* HomeViewController.swift */; };
@@ -14,9 +16,19 @@
 		414DAAA626E0D8040009C8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414DAAA526E0D8040009C8A4 /* Assets.xcassets */; };
 		414DAAA926E0D8040009C8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414DAAA726E0D8040009C8A4 /* LaunchScreen.storyboard */; };
 		414DAAB126E0DFF80009C8A4 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414DAAB026E0DFF80009C8A4 /* TransactionViewController.swift */; };
+		41519E8A26E91E31002B4038 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41519E8926E91E31002B4038 /* SwinjectStoryboard.swift */; };
+		41519E8C26E93E2C002B4038 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41519E8B26E93E2C002B4038 /* AccountBalance.swift */; };
+		41519E8E26E93E46002B4038 /* HomeNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41519E8D26E93E46002B4038 /* HomeNetworkHandler.swift */; };
+		41519E9026E95715002B4038 /* TestNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41519E8F26E95714002B4038 /* TestNetworkHandler.swift */; };
+		41BBFF6426EDD8CC00FC760F /* TransactionResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBFF6326EDD8CC00FC760F /* TransactionResponseData.swift */; };
+		41EC63AE26EE763400427C65 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EC63AC26EE763400427C65 /* TransactionTableViewCell.swift */; };
+		41EC63AF26EE763400427C65 /* TransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41EC63AD26EE763400427C65 /* TransactionTableViewCell.xib */; };
+		87692062D339A18A9636C854 /* Pods_Accounting_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AC108C5A230D80660F4B96 /* Pods_Accounting_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		413EB3E926E9EC6200550963 /* HomeNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkProtocol.swift; sourceTree = "<group>"; };
+		413EB3EB26EC9A7D00550963 /* TransactionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionData.swift; sourceTree = "<group>"; };
 		414DAA9926E0D8020009C8A4 /* Accounting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accounting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		414DAA9C26E0D8020009C8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		414DAA9E26E0D8020009C8A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +38,16 @@
 		414DAAA826E0D8040009C8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		414DAAAA26E0D8040009C8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		414DAAB026E0DFF80009C8A4 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		41519E8926E91E31002B4038 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboard.swift; sourceTree = "<group>"; };
+		41519E8B26E93E2C002B4038 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		41519E8D26E93E46002B4038 /* HomeNetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkHandler.swift; sourceTree = "<group>"; };
+		41519E8F26E95714002B4038 /* TestNetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNetworkHandler.swift; sourceTree = "<group>"; };
+		41BBFF6326EDD8CC00FC760F /* TransactionResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResponseData.swift; sourceTree = "<group>"; };
+		41EC63AC26EE763400427C65 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		41EC63AD26EE763400427C65 /* TransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionTableViewCell.xib; sourceTree = "<group>"; };
+		5DB9CFA19C38FF2739408CFA /* Pods-Accounting App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accounting App.debug.xcconfig"; path = "Target Support Files/Pods-Accounting App/Pods-Accounting App.debug.xcconfig"; sourceTree = "<group>"; };
+		6A8822ED86B599BC7B95E2D3 /* Pods-Accounting App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Accounting App.release.xcconfig"; path = "Target Support Files/Pods-Accounting App/Pods-Accounting App.release.xcconfig"; sourceTree = "<group>"; };
+		E1AC108C5A230D80660F4B96 /* Pods_Accounting_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Accounting_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87692062D339A18A9636C854 /* Pods_Accounting_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				414DAA9B26E0D8020009C8A4 /* Accounting App */,
 				414DAA9A26E0D8020009C8A4 /* Products */,
+				5A09FF8E7625F51B70D2A7C6 /* Pods */,
+				9EE964A10F9F6B86B7C3BC7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,22 +85,72 @@
 			children = (
 				414DAA9C26E0D8020009C8A4 /* AppDelegate.swift */,
 				414DAA9E26E0D8020009C8A4 /* SceneDelegate.swift */,
-				4183263926E24E1C0050E74A /* Controllers */,
+				4183263926E24E1C0050E74A /* Accounts */,
 				414DAAA226E0D8020009C8A4 /* Accounts.storyboard */,
 				414DAAA526E0D8040009C8A4 /* Assets.xcassets */,
 				414DAAA726E0D8040009C8A4 /* LaunchScreen.storyboard */,
 				414DAAAA26E0D8040009C8A4 /* Info.plist */,
+				41519E8926E91E31002B4038 /* SwinjectStoryboard.swift */,
+				41519E8D26E93E46002B4038 /* HomeNetworkHandler.swift */,
+				41519E8F26E95714002B4038 /* TestNetworkHandler.swift */,
+				41EC63B226EE99EA00427C65 /* Protocol */,
+				41EC63B126EE99D600427C65 /* Data */,
+				41EC63B026EE92A900427C65 /* TableViewCell */,
 			);
 			path = "Accounting App";
 			sourceTree = "<group>";
 		};
-		4183263926E24E1C0050E74A /* Controllers */ = {
+		4183263926E24E1C0050E74A /* Accounts */ = {
 			isa = PBXGroup;
 			children = (
 				414DAAA026E0D8020009C8A4 /* HomeViewController.swift */,
 				414DAAB026E0DFF80009C8A4 /* TransactionViewController.swift */,
 			);
-			path = Controllers;
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		41EC63B026EE92A900427C65 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				41EC63AC26EE763400427C65 /* TransactionTableViewCell.swift */,
+				41EC63AD26EE763400427C65 /* TransactionTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		41EC63B126EE99D600427C65 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				413EB3EB26EC9A7D00550963 /* TransactionData.swift */,
+				41519E8B26E93E2C002B4038 /* AccountBalance.swift */,
+				41BBFF6326EDD8CC00FC760F /* TransactionResponseData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		41EC63B226EE99EA00427C65 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				413EB3E926E9EC6200550963 /* HomeNetworkProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		5A09FF8E7625F51B70D2A7C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB9CFA19C38FF2739408CFA /* Pods-Accounting App.debug.xcconfig */,
+				6A8822ED86B599BC7B95E2D3 /* Pods-Accounting App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9EE964A10F9F6B86B7C3BC7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1AC108C5A230D80660F4B96 /* Pods_Accounting_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 414DAAAD26E0D8040009C8A4 /* Build configuration list for PBXNativeTarget "Accounting App" */;
 			buildPhases = (
+				7AA0E0B8EFB978373AF962B6 /* [CP] Check Pods Manifest.lock */,
 				414DAA9526E0D8020009C8A4 /* Sources */,
 				414DAA9626E0D8020009C8A4 /* Frameworks */,
 				414DAA9726E0D8020009C8A4 /* Resources */,
+				6D72D0BEC38BD41613CDA4DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,11 +214,54 @@
 			files = (
 				414DAAA926E0D8040009C8A4 /* LaunchScreen.storyboard in Resources */,
 				414DAAA626E0D8040009C8A4 /* Assets.xcassets in Resources */,
+				41EC63AF26EE763400427C65 /* TransactionTableViewCell.xib in Resources */,
 				414DAAA426E0D8020009C8A4 /* Accounts.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D72D0BEC38BD41613CDA4DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accounting App/Pods-Accounting App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Accounting App/Pods-Accounting App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Accounting App/Pods-Accounting App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA0E0B8EFB978373AF962B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Accounting App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		414DAA9526E0D8020009C8A4 /* Sources */ = {
@@ -151,7 +271,15 @@
 				414DAAA126E0D8020009C8A4 /* HomeViewController.swift in Sources */,
 				414DAAB126E0DFF80009C8A4 /* TransactionViewController.swift in Sources */,
 				414DAA9D26E0D8020009C8A4 /* AppDelegate.swift in Sources */,
+				41BBFF6426EDD8CC00FC760F /* TransactionResponseData.swift in Sources */,
+				41519E9026E95715002B4038 /* TestNetworkHandler.swift in Sources */,
+				413EB3EA26E9EC6200550963 /* HomeNetworkProtocol.swift in Sources */,
+				41519E8A26E91E31002B4038 /* SwinjectStoryboard.swift in Sources */,
+				413EB3EC26EC9A7D00550963 /* TransactionData.swift in Sources */,
+				41519E8C26E93E2C002B4038 /* AccountBalance.swift in Sources */,
 				414DAA9F26E0D8020009C8A4 /* SceneDelegate.swift in Sources */,
+				41EC63AE26EE763400427C65 /* TransactionTableViewCell.swift in Sources */,
+				41519E8E26E93E46002B4038 /* HomeNetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +423,7 @@
 		};
 		414DAAAE26E0D8040009C8A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB9CFA19C38FF2739408CFA /* Pods-Accounting App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +443,7 @@
 		};
 		414DAAAF26E0D8040009C8A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8822ED86B599BC7B95E2D3 /* Pods-Accounting App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
