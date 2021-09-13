@@ -14,7 +14,7 @@ extension SwinjectStoryboard {
         let swinject = defaultContainer
         
         swinject.register(HomeNetworkProtocol.self, name: "HomeNetworkProtocol") { r in
-            HomeNetworkHandler()
+            TestNetworkHandler()
         }.inObjectScope(.container)
 
         swinject.storyboardInitCompleted(HomeViewController.self) { resolvable, viewController in
