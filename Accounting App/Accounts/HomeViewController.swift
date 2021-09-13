@@ -51,9 +51,6 @@ class HomeViewController: UIViewController {
         //                self.transactionTableView.reloadData()
         //            }
         //        }
-        //
-        //        transactionTableView.register(UITableViewCell.self, forCellReuseIdentifier: "CellID")
-        
     }
     
     @IBAction func addButton(_ sender: UIButton) {
