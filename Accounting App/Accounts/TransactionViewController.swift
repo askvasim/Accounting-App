@@ -25,9 +25,11 @@ class TransactionViewController: UIViewController {
            let titleInput = titleTextField.text, !titleInput.isEmpty {
             
             transections.creditAmount(amount: amountInput, title: titleInput) { creditAmount in
-                let alertController = UIAlertController(title: "Record Added", message: creditAmount, preferredStyle: .alert)
-                alertController.addAction(UIAlertAction(title: "OK", style: .default))
-                self.present(alertController, animated: true, completion: nil)
+                DispatchQueue.main.async {
+                    let alertController = UIAlertController(title: "Record Added", message: creditAmount, preferredStyle: .alert)
+                    alertController.addAction(UIAlertAction(title: "OK", style: .default))
+                    self.present(alertController, animated: true, completion: nil)
+                }
             }
         } else {
             // Show Message
@@ -43,9 +45,11 @@ class TransactionViewController: UIViewController {
            let titleInput = titleTextField.text, !titleInput.isEmpty {
             
             transections.debitAmount(amount: amountInput, title: titleInput) { debitAmount in
+                DispatchQueue.main.async {
                     let alertController = UIAlertController(title: "Record Added", message: debitAmount, preferredStyle: .alert)
                     alertController.addAction(UIAlertAction(title: "OK", style: .default))
                     self.present(alertController, animated: true, completion: nil)
+                }
             }
         } else {
             // Show Message

@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
     var homeNetworkProtocol: HomeNetworkProtocol!
     var transactions: [Transaction]?
     
+    
     @IBOutlet weak var amountLabel: UILabel!
     @IBOutlet weak var transactionTableView: UITableView!
     
@@ -39,18 +40,6 @@ class HomeViewController: UIViewController {
         transactionTableView.dataSource = self
         transactionTableView.register(UINib(nibName: "TransactionTableViewCell", bundle: nil), forCellReuseIdentifier: "CellIdentifier")
         
-        //        homeNetworkProtocol.getBalance(onCompliteion: { amount in
-        //            DispatchQueue.main.async {
-        //                self.amountLabel.text = "₹ \(amount)"
-        //            }
-        //        })
-        //
-        //        homeNetworkProtocol.getTransaction { transactions in
-        //            self.transactions = transactions
-        //            DispatchQueue.main.async {
-        //                self.transactionTableView.reloadData()
-        //            }
-        //        }
     }
     
     @IBAction func addButton(_ sender: UIButton) {

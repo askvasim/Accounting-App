@@ -95,7 +95,8 @@ class HomeNetworkHandler: HomeNetworkProtocol {
                     if let safeData = data {
                         do {
                             let decodedData = try JSONDecoder().decode(TransactionResponse.self, from: safeData)
-                            print(decodedData)
+                            let message = decodedData.message
+                            onComplition(message)
                         } catch {
                             print(error)
                         }
@@ -130,7 +131,8 @@ class HomeNetworkHandler: HomeNetworkProtocol {
                     if let safeData = data {
                         do {
                             let decodedData = try JSONDecoder().decode(TransactionResponse.self, from: safeData)
-                            print(decodedData)
+                            let message = decodedData.message
+                            onCompletion(message)
                         } catch {
                             print(error)
                         }
